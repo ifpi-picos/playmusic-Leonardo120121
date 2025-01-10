@@ -4,10 +4,13 @@ import java.util.List;
 
 public class Playlist {
    @SuppressWarnings("unused")
-  private String nome;
+   // Nome da playlist
+   private String nome;
    @SuppressWarnings("unused")
-  private List<Musica> musicas;
+   // Lista de músicas da playlist
+   private List<Musica> musicas;
 
+   // Construtor da classe Playlist
    public Playlist() {
    }
 }
